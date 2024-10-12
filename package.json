@@ -1,0 +1,15 @@
+{
+  "name": "systemctl-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "sudo node index.js",
+    "install": "cmake-js compile"
+  },
+  "author": "Obediah Klopfenstein <obe711@gmail.com>",
+  "license": "ISC",
+  "description": "Systemd systemctl lib",
+  "dependencies": {
+    "bindings": "^1.5.0"
+  }
+}
