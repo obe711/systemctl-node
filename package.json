@@ -1,6 +1,6 @@
 {
   "name": "systemctl-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "C bindings for service control with Systemd - systemctl lib",
   "main": "index.js",
   "scripts": {
@@ -12,7 +12,9 @@
   "dependencies": {
     "bindings": "^1.5.0"
   },
-  "os": ["linux"],
+  "os": [
+    "linux"
+  ],
   "keywords": [
     "systemd",
     "systemctl",
@@ -22,5 +24,6 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/obe711/systemctl-node.git"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
