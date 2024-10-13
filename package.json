@@ -1,15 +1,26 @@
 {
   "name": "systemctl-node",
   "version": "1.0.0",
+  "description": "C bindings for service control with Systemd - systemctl lib",
   "main": "index.js",
   "scripts": {
     "test": "sudo node index.js",
     "install": "cmake-js compile"
   },
   "author": "Obediah Klopfenstein <obe711@gmail.com>",
-  "license": "ISC",
-  "description": "Systemd systemctl lib",
+  "license": "MIT",
   "dependencies": {
     "bindings": "^1.5.0"
+  },
+  "os": ["linux"],
+  "keywords": [
+    "systemd",
+    "systemctl",
+    "ubuntu",
+    "debian"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/obe711/systemctl-node.git"
   }
 }
